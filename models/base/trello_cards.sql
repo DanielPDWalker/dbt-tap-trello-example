@@ -7,11 +7,11 @@ with source as (
 renamed as (
 
     select
-        , check_item_states
+        check_item_states
         , closed
         , custom_field_items
         , date_last_activity
-        , desc
+        , "desc"
         , due
         , due_complete
         , due_reminder

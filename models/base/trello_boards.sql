@@ -7,12 +7,12 @@ with source as (
 renamed as (
 
     select
-        , closed
+        closed
         , creation_method
         , date_last_activity
         , date_last_view
         , date_plugin_disable
-        , desc
+        , "desc"
         , desc_data
         , enterprise_owned
         , id
