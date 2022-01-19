@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: trello_source
+    description: Trello tables created by our tap-trello
+    schema: "{{ env_var('DBT_TARGET_SCHEMA') }}"
+    tables: 
+      - name: actions
+        description: Source table of actions that have happened on trello
+      - name: boards
+        description: Source table of Trello board data
+      - name: cards
+        description: Source table of Trello card data
+      - name: checklists
+        description: Source table of Trello checklist data
+      - name: lists
+        description: Source table of Trello lists
+      - name: users
+        description: Source table of Trello users
+

@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: trello_cards
+    description: Trello card data
+  - name: trello_boards
+    description: Trello board data
+  - name: trello_vw_cards_per_board
+    description: View for amount of trello cards per board
+
+
+
